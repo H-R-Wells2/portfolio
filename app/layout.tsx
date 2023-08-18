@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-indigo-950 min-h-screen`}>
+      <body className={`${inter.className} bg-indigo-950 min-h-screen custom-scrollbar w-full`}>
           <Navbar />
           {children}
       </body>
