@@ -23,7 +23,7 @@ const BackGroundCircles = (props: Props) => {
       <div className="absolute border border-orange-300/20 rounded-full h-[300px] w-[300px]  mt-56" />
       <div className="absolute border border-orange-300/20 rounded-full h-[500px] w-[500px] mt-56" />
       <div className="rounded-full border border-teal-300/70 opacity-20 h-[650px] w-[650px]  absolute animate-pulse mt-56" />
-      <div className="rounded-full border border-orange-300/20 sm:h-[800px] sm:w-[800px] h-[650px] w-[650px] absolute mt-56" />
+      <div className="rounded-full border border-orange-300/20 h-[800px] w-[800px] absolute mt-56" />
     </motion.div>
   );
 };
