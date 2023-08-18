@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "./components/Navbar";
+import BottomBar from "./components/BottomBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-indigo-950 min-h-screen custom-scrollbar w-full`}>
-          <Navbar />
-          {children}
+      <body
+        className={`${inter.className} bg-indigo-950 min-h-screen custom-scrollbar w-full`}
+      >
+        <Navbar />
+        {children}
       </body>
+      <BottomBar />
     </html>
   );
 }
