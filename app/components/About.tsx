@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import AboutBgSvg from "./AboutBgSvg";
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 type Props = {};
 
@@ -77,6 +79,7 @@ const About = (props: Props) => {
             create exceptional web experiences.
           </p>
         </motion.div>
+        <AboutBgSvg/>
       </div>
     </motion.div>
   );

@@ -2,19 +2,24 @@ import Image from "next/image";
 import { BsGithub } from "react-icons/bs";
 import { IoOpenOutline } from "react-icons/io5";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 type Props = {
-    image: string,
-    title: string,
-    desc: string,
+  title: string;
+  desc: string;
+  imgUrl: string;
+  liveUrl: string;
+  codeUrl: string;
+  tags: string[];
 };
 
-const ProjectCard = (props: Props) => {
+
+const ProjectCard = ({title, desc, imgUrl, liveUrl, codeUrl, tags}: Props) => {
   return (
-    <div className="rounded-lg bg-primary/30 w-[500px] hover:shadow-[1px_1px_9px_7px] hover:shadow-teal-300 transition-all duration-500">
+    <div className="rounded-lg bg-primary/30  w-full md:w-[500px] hover:shadow-[1px_1px_9px_5px] hover:shadow-teal-300 transition-all duration-500">
       <div className="relative aspect-[16/9]  rounded-t-lg overflow-hidden object-cover mx-auto z-0">
         <Image
-          src="/stitchtalk.png"
+          src={imgUrl}
           alt="StitchTalk"
           fill
           className="flex-shrink-0 object-contain hover:scale-110 transition-all duration-500"
@@ -22,25 +27,39 @@ const ProjectCard = (props: Props) => {
       </div>
       <div className="p-3">
         <div className="flex justify-between w-full">
-          <h1 className="text-2xl font-semibold pb-3">StitchTalk</h1>
+          <h1 className="text-2xl font-semibold pb-3">{title}</h1>
           <div className="flex gap-3">
-            <Link href={"https://www.github.com/h-r-wells2"} target="_blank">
-              <BsGithub className="h-7 w-7 hover:rotate-12" />
-            </Link>
-            <Link
-              href={"https://www.github.com/h-r-wells2/stitchtalk"}
-              target="_blank"
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              <IoOpenOutline className="h-7 w-7 hover:rotate-12" />
-            </Link>
+              <Link href={codeUrl} target="_blank">
+                <BsGithub className="h-7 w-7 " />
+              </Link>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              <Link
+                href={liveUrl}
+                target="_blank"
+              >
+                <IoOpenOutline className="h-7 w-7 " />
+              </Link>
+            </motion.div>
           </div>
         </div>
         <h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolore
-          dolor ipsa corporis adipisci laboriosam ex inventore explicabo
-          repellendus consequatur accusamus quas eum fugiat, quaerat nostrum
-          veniam voluptates praesentium unde.
+         {desc}
         </h4>
+      </div>
+      <div className="flex flex-wrap max-w-full gap-2 px-5 pb-3">
+        {tags.map((tag) => (
+          <span key={tag} className="bg-secondary/40 rounded-md px-1">{tag}</span>
+        ))}
       </div>
     </div>
   );

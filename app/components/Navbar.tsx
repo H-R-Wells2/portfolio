@@ -24,11 +24,11 @@ const Navbar = () => {
           }}
           className="flex items-center"
         >
-          <Link href="/">
+          <a href="/#">
             <h1 className="font-bold md:text-3xl text-2xl text-white cursor-pointer">
               &lt;HR<span className="text-teal-300">Wells/&gt;</span>
             </h1>
-          </Link>
+          </a>
           <div className="border-orange-500 border-x h-10 w-2 grow justify-center min-w-md ml-5 hidden md:flex" />
           <div className=" md:flex w-fit sm:ml-4 gap-3 hidden">
             <a href="https://t.me/h_r_wells" className="self-center">
@@ -86,15 +86,15 @@ const Navbar = () => {
           }}
           className="md:flex items-center gap-4 mx-4 text-white text-lg sm:text-xl font-medium hidden "
         >
-          <Link href="#about">
+          <a href="#about">
             <h2 className="hover:text-teal-300 cursor-pointer">Who am I?</h2>
-          </Link>
-          <Link href="#projects">
+          </a>
+          <a href="#projects">
             <h2 className="hover:text-teal-300 cursor-pointer">Projects</h2>
-          </Link>
-          <Link href="#contact">
+          </a>
+          <a href="#contact">
             <h2 className="hover:text-teal-300 cursor-pointer">Contact</h2>
-          </Link>
+          </a>
         </motion.div>
       </div>
     </header>
