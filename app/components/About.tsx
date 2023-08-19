@@ -11,7 +11,7 @@ const About = (props: Props) => {
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration:1.5}}
-    className="min-h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+    className="min-h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center overflow-x-hidden">
       <h3 className="absolute top-16 uppercase tracking-[20px] text-teal-300 z-10">
         Who am I?
       </h3>
@@ -41,7 +41,18 @@ const About = (props: Props) => {
         <h1 className="text-4xl font-semibold">
           Here is a <span className="underline decoration-orange-400 font-medium">Little</span> background
         </h1>
-        <div className="flex flex-col gap-2 text-sm">
+        <motion.div initial={{
+          x:200,
+          opacity:0,
+        }}
+        whileInView={{
+          x:1,
+          opacity:1
+        }}
+        transition={{
+          duration:1
+        }}
+        className="flex flex-col gap-2 text-sm">
           <p>
             Hello, I'm Shubham Kadam – a skilled web developer with a robust
             foundation in the world of web development. I'm a recent graduate,
@@ -65,7 +76,7 @@ const About = (props: Props) => {
             potential collaborations. Feel free to reach out. Together, we can
             create exceptional web experiences.
           </p>
-        </div>
+        </motion.div>
       </div>
     </motion.div>
   );

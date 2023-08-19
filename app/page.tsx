@@ -2,6 +2,7 @@
 
 import About from "./components/About";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -14,8 +15,9 @@ export default function Home() {
         <About />
       </section>
 
-      {/* Projects */}
-
+      <section id="projects">
+        <Projects />
+      </section>
       {/* Skills */}
 
       {/* Contact me */}
