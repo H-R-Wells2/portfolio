@@ -3,17 +3,17 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import AboutBgSvg from "./AboutBgSvg";
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 type Props = {};
 
 const About = (props: Props) => {
   return (
-    <motion.div 
-    initial={{opacity: 0}}
-    whileInView={{opacity: 1}}
-    transition={{duration:1.5}}
-    className="min-h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center overflow-x-hidden">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      className="min-h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center overflow-x-hidden"
+    >
       <h3 className="absolute top-16 uppercase tracking-[20px] text-teal-300 z-10">
         Who am I?
       </h3>
@@ -39,22 +39,29 @@ const About = (props: Props) => {
           className="-mb-20 md:mb-0 flex-shrink-0 rounded-full object-cover md:rounded-lg"
         />
       </motion.div>
+
       <div className="px-0 space-y-10 md:px-4 md:w-1/2 md:mt-0 mt-10">
         <h1 className="text-4xl font-semibold">
-          Here is a <span className="underline decoration-orange-400 font-medium">Little</span> background
+          Here is a{" "}
+          <span className="underline decoration-orange-400 font-medium">
+            Little
+          </span>{" "}
+          background
         </h1>
-        <motion.div initial={{
-          x:200,
-          opacity:0,
-        }}
-        whileInView={{
-          x:1,
-          opacity:1
-        }}
-        transition={{
-          duration:1
-        }}
-        className="flex flex-col gap-2 text-sm">
+        <motion.div
+          initial={{
+            x: 200,
+            opacity: 0,
+          }}
+          whileInView={{
+            x: 1,
+            opacity: 1,
+          }}
+          transition={{
+            duration: 1,
+          }}
+          className="flex flex-col gap-2 text-sm"
+        >
           <p>
             Hello, I'm Shubham Kadam – a skilled web developer with a robust
             foundation in the world of web development. I'm a recent graduate,
@@ -79,7 +86,7 @@ const About = (props: Props) => {
             create exceptional web experiences.
           </p>
         </motion.div>
-        <AboutBgSvg/>
+        <AboutBgSvg />
       </div>
     </motion.div>
   );

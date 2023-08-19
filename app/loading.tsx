@@ -1,10 +1,13 @@
+import HashLoader from "react-spinners/HashLoader";
 
-type Props = {}
+type Props = {};
 
 const loading = (props: Props) => {
   return (
-    <div>loading...</div>
-  )
-}
+    <div>
+      <HashLoader size={100} color="#5EEAD4" />
+    </div>
+  );
+};
 
-export default loading
+export default loading;
