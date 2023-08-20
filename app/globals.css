@@ -6,24 +6,33 @@ html {
   scroll-behavior: smooth;
 }
 
+input,
+textarea,
+button,
+select,
+div,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 @layer utilities {
 
   .custom-scrollbar::-webkit-scrollbar {
-    width: 2px;
+    width: 7px;
     height: 3px;
     border-radius: 2px;
   }
 
   .custom-scrollbar::-webkit-scrollbar-track {
-    background: #09090a;
+    background: #4a2e96b5;
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #5c5c7b;
+    background: #61519F;
     border-radius: 50px;
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #7878a3;
+    background: #FB923C;
   }
 }

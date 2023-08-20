@@ -89,6 +89,9 @@ const Navbar = () => {
           <a href="#about">
             <h2 className="hover:text-teal-300 cursor-pointer">Who am I?</h2>
           </a>
+          <a href="#skills">
+            <h2 className="hover:text-teal-300 cursor-pointer">Skills</h2>
+          </a>
           <a href="#projects">
             <h2 className="hover:text-teal-300 cursor-pointer">Projects</h2>
           </a>

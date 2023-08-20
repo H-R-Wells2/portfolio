@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./cards/ProjectCard";
 import { projects } from "../constants";
 
 type Props = {};
@@ -17,17 +17,15 @@ const Projects = (props: Props) => {
       <h3 className="absolute top-16 uppercase tracking-[20px] text-teal-300 z-10">
         Projects
       </h3>
-      <div className="flex flex-col mt-32">
+      <div className="flex flex-col mt-28">
         <div className="flex w-full justify-center">
 
-        <h4 className="text-md p-3 rounded-lg text-center flex justify-center flex-col top-32 text-quaternary z-10">
+        <h4 className="text-md p-3 rounded-lg text-center max-w-md flex justify-center flex-col top-32 text-quaternary z-10">
           “Talk is cheap. Show me the code”? I got you.
-          <span className="flex w-full text-center">
             Here are some of my projects you shouldn't miss
-          </span>
         </h4>
         </div>
-        <div className="flex flex-wrap gap-6 xl:justify-between justify-center mt-20 mx-8 mb-7">
+        <div className="flex flex-wrap gap-6 xl:justify-between justify-center mt-16 mx-8 mb-7">
           {projects.map((project) => (
             <ProjectCard
               key={project.title}
