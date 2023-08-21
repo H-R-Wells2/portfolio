@@ -14,15 +14,23 @@ Welcome to my portfolio! This project showcases my journey as a web developer an
 ## Technologies Used
 
 - [Next.js](https://nextjs.org/)
-- [Sanity](https://www.sanity.io/)
+- [Sanity](https://www.sanity.io/) (not implemented yet)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## Screenshots
 
+<div style="gap: 20px">
+  <img src="./screenshots/portfolio.png" alt="Hero section" style="height: 300px; width: 575;">
+  <br>
+  <img src="./screenshots/portfolioSkills.png" alt="skills section" style="height: 300px; width: 575;">
+  <br>
+  <img src="./screenshots/portfolioSm.png" alt="Hero section on phone screen" style="height: 300px; width: auto;">
+</div>
+
 ## Live
 
-Check out my live portfolio:
+Check out my live portfolio: [Shubham Kadam Portfolio](https://your-portfolio-demo-url.com)
 
 ## Accounts
 
