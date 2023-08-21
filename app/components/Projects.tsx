@@ -22,7 +22,7 @@ const Projects = (props: Props) => {
 
         <h4 className="text-md p-3 rounded-lg text-center max-w-md flex justify-center flex-col top-32 text-quaternary z-10">
           “Talk is cheap. Show me the code”? I got you.
-            Here are some of my projects you shouldn't miss
+            Here are some of my projects you shouldn &apos;t miss
         </h4>
         </div>
         <div className="flex flex-wrap gap-6 xl:justify-between justify-center mt-16 mx-8 mb-7">

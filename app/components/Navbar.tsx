@@ -6,7 +6,6 @@ import Link from "next/link";
 import { FaTelegramPlane, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
-
   // const [activeSection, setActiveSection] = useState("hero");
 
   // const handleScroll = () => {
@@ -56,15 +55,33 @@ const Navbar = () => {
           </a>
           <div className="border-orange-500 border-x h-10 w-2 grow justify-center min-w-md ml-5 hidden md:flex" />
           <div className=" md:flex w-fit sm:ml-4 gap-3 hidden">
-            <Link href="https://t.me/h_r_wells" className="self-center">
-              <FaLinkedin className="h-8 w-8 text-teal-300" />
-            </Link>
-            <Link href="https://t.me/h_r_wells" className="self-center">
-              <FaGithub className="h-8 w-8 text-teal-300" />
-            </Link>
-            <Link href="https://t.me/h_r_wells" className="self-center">
-              <FaTelegramPlane className="h-8 w-8 text-teal-300" />
-            </Link>
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              <Link href="https://t.me/h_r_wells" className="self-center">
+                <FaLinkedin className="h-8 w-8 text-teal-300" />
+              </Link>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              <Link href="https://t.me/h_r_wells" className="self-center">
+                <FaGithub className="h-8 w-8 text-teal-300" />
+              </Link>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              <Link href="https://t.me/h_r_wells" className="self-center">
+                <FaTelegramPlane className="h-8 w-8 text-teal-300" />
+              </Link>
+            </motion.div>
           </div>
         </motion.div>
 

@@ -30,18 +30,18 @@ const About = (props: Props) => {
           opacity: 1,
         }}
         //   viewport={{once:true}}
-        className="relative h-56 w-56 md:w-64 md:h-96 xl:h-[400px] xl:w-[400px] object-cover mx-auto md:pt-0 mt-28 md:mt-0 z-0"
+        className="relative h-64 w-56 md:w-64 md:h-96 xl:h-[480px] xl:w-[300px] object-cover mx-auto md:pt-0 mt-28 md:mt-0 z-0"
       >
         <Image
-          src="/profile.png"
+          src="/hrwells2.jpg"
           alt="profile image"
           fill
-          className="-mb-20 md:mb-0 flex-shrink-0 rounded-full object-cover md:rounded-lg"
+          className="-mb-20 md:mb-0 flex-shrink-0 rounded-2xl hover:-rotate-3 hover:scale-105 transition ease-in-out duration-300 object-cover md:rounded-lg"
         />
       </motion.div>
 
       <div className="px-0 space-y-10 md:px-4 md:w-1/2 md:mt-0 mt-10">
-        <h1 className="text-4xl font-semibold">
+        <h1 className="lg:text-4xl text-2xl font-semibold">
           Here is a{" "}
           <span className="underline underline-offset-2 decoration-orange-400 font-medium">
             Little
@@ -60,18 +60,20 @@ const About = (props: Props) => {
           transition={{
             duration: 1,
           }}
-          className="flex flex-col gap-2 sm:text-base text-sm text-justify"
+          className="flex flex-col gap-2 lg:text-base text-sm"
         >
           <p>
-            Hello, I'm{" "}
+            Hello, I &apos;m{" "}
             <span className="underline underline-offset-2 font-bold text-teal-300 tracking-wider">
               Shubham Kadam
+            </span>{" "}aka <span className="underline underline-offset-2 font-bold text-teal-300 tracking-wider">
+              HRWells
             </span>{" "}
             – a skilled web developer with a robust foundation in the world of{" "}
             <span className="underline underline-offset-4 decoration-orange-300">
               web development
             </span>
-            . I'm a recent graduate, holding a{" "}
+            . I &apos;m a recent graduate, holding a{" "}
             <span className="underline underline-offset-4 decoration-orange-300">
               BScIT degree
             </span>{" "}
@@ -98,15 +100,15 @@ const About = (props: Props) => {
               JavaScript, Next.js, React JS, Express.js, Node Js, Tailwind CSS,
               SASS, and more.
             </span>{" "}
-            I'm also well-versed in MongoDB, a versatile NoSQL database that
+            I &apos;m also well-versed in MongoDB, a versatile NoSQL database that
             allows for adaptable and scalable data storage.
           </p>
           <p>
-            Now, I'm on the lookout for exciting opportunities to apply my
-            skills and contribute to dynamic web projects. If you're seeking a
+            Now, I &apos;m on the lookout for exciting opportunities to apply my
+            skills and contribute to dynamic web projects. If you &apos;re seeking a
             dedicated and innovative developer,{" "}
             <span className="underline underline-offset-4 decoration-orange-300">
-              let's connect and explore
+              let &apos;s connect and explore
             </span>{" "}
             potential collaborations. Feel free to reach out. Together, we can
             create exceptional web experiences.

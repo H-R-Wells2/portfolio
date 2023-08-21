@@ -1,8 +1,5 @@
 import Image from "next/image";
 
-// import dots from "/extra/dots.svg";
-// import dotsDark from "/extra/dots-dark.svg";
-// import arrow from "/extra/arrow.svg";
 
 const AboutBgSvg: React.FC = () => {
   return (
