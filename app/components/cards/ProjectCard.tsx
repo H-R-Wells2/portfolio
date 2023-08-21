@@ -22,8 +22,8 @@ const ProjectCard = ({
   tags,
 }: Props) => {
   return (
-    <div className="rounded-lg bg-primary/30  w-full md:w-[500px] hover:shadow-[1px_1px_9px_5px] hover:shadow-teal-300 transition-all duration-500">
-      <div className="relative aspect-[16/9]  rounded-t-lg overflow-hidden object-cover mx-auto z-0">
+    <div className="rounded-lg bg-primary/30 w-full md:w-[500px] hover:shadow-[1px_1px_9px_5px] hover:shadow-teal-300 transition-all duration-500">
+      <div className="relative aspect-[16/9] rounded-t-lg overflow-hidden object-cover mx-auto z-0">
         <Image
           src={imgUrl}
           alt="StitchTalk"

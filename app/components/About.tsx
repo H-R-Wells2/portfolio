@@ -43,7 +43,7 @@ const About = (props: Props) => {
       <div className="px-0 space-y-10 md:px-4 md:w-1/2 md:mt-0 mt-10">
         <h1 className="text-4xl font-semibold">
           Here is a{" "}
-          <span className="underline decoration-orange-400 font-medium">
+          <span className="underline underline-offset-2 decoration-orange-400 font-medium">
             Little
           </span>{" "}
           background
@@ -60,28 +60,54 @@ const About = (props: Props) => {
           transition={{
             duration: 1,
           }}
-          className="flex flex-col gap-2 text-sm"
+          className="flex flex-col gap-2 sm:text-base text-sm text-justify"
         >
           <p>
-            Hello, I'm Shubham Kadam – a skilled web developer with a robust
-            foundation in the world of web development. I'm a recent graduate,
-            holding a BScIT degree from Mumbai University. My journey has been
-            shaped by a fervent dedication to honing my craft through
-            independent projects.
+            Hello, I'm{" "}
+            <span className="underline underline-offset-2 font-bold text-teal-300 tracking-wider">
+              Shubham Kadam
+            </span>{" "}
+            – a skilled web developer with a robust foundation in the world of{" "}
+            <span className="underline underline-offset-4 decoration-orange-300">
+              web development
+            </span>
+            . I'm a recent graduate, holding a{" "}
+            <span className="underline underline-offset-4 decoration-orange-300">
+              BScIT degree
+            </span>{" "}
+            from Mumbai University. My journey has been shaped by a fervent
+            dedication to honing my craft through{" "}
+            <span className="underline underline-offset-4 decoration-orange-300">
+              independent projects
+            </span>
+            .
           </p>
           <p>
-            With an insatiable drive, I specialize in crafting impactful web
-            applications and user-centric experiences. My academic journey has
-            paved the way for a deep proficiency in a range of web technologies,
-            including JavaScript, Next.js, React JS, Express.js, Node Js,
-            Tailwind CSS, SASS, and more. I'm also well-versed in MongoDB, a
-            versatile NoSQL database that allows for adaptable and scalable data
-            storage.
+            With an insatiable drive, I{" "}
+            <span className="underline underline-offset-4 decoration-orange-300">
+              specialize
+            </span>{" "}
+            in crafting impactful web applications and user-centric experiences.
+            My academic journey has paved the way for a deep proficiency in a
+            range of{" "}
+            <span className="underline underline-offset-4 decoration-orange-300">
+              web technologies
+            </span>
+            , including{" "}
+            <span className="">
+              JavaScript, Next.js, React JS, Express.js, Node Js, Tailwind CSS,
+              SASS, and more.
+            </span>{" "}
+            I'm also well-versed in MongoDB, a versatile NoSQL database that
+            allows for adaptable and scalable data storage.
           </p>
           <p>
             Now, I'm on the lookout for exciting opportunities to apply my
             skills and contribute to dynamic web projects. If you're seeking a
-            dedicated and innovative developer, let's connect and explore
+            dedicated and innovative developer,{" "}
+            <span className="underline underline-offset-4 decoration-orange-300">
+              let's connect and explore
+            </span>{" "}
             potential collaborations. Feel free to reach out. Together, we can
             create exceptional web experiences.
           </p>

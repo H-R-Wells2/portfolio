@@ -61,7 +61,7 @@ function Hero({}: Props) {
           </h2>
         </div>
       </motion.div>
-      <div className="absolute -bottom-5 animate-bounce w-full hidden md:flex justify-center">
+      <div className="absolute -bottom-4 animate-bounce w-full hidden md:flex justify-center">
         <a
           href="#about"
           className="group hidden transform md:flex items-center flex-col"
