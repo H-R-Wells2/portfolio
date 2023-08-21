@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "StitchTalk",
-    imgUrl: "/stitchtalk.png",
+    imgUrl: "/StitchTalk.png",
     desc: "StitchTalk is a dynamic web app crafted using Next.js and TypeScript, designed for engaging conversations, effortless thread creation, and community growth. By leveraging Clerk Auth, MongoDB, Shadcn, and Tailwind CSS, users can seamlessly connect, initiate threads, join discussions, and create their own unique community hubs.",
     tags: [
       "NextJS",
