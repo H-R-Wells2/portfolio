@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 const AboutBgSvg: React.FC = () => {
   return (
     <>

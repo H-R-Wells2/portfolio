@@ -41,9 +41,9 @@ const Contact = (props: Props) => {
         </h4>
         <p className="text-base max-w-lg text-center text-teal-50">
           As an enthusiastic developer, I excel in overcoming challenges through
-          coding. If you &apos;re seeking to build exceptional projects or eager to
-          explore new horizons, I invite you to reach out. Let &apos;s connect and
-          make your vision a reality.
+          coding. If you &apos;re seeking to build exceptional projects or eager
+          to explore new horizons, I invite you to reach out. Let &apos;s
+          connect and make your vision a reality.
         </p>
         <div className="flex justify-center flex-col items-center mt-20 w-fit">
           <form

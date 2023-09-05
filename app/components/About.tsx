@@ -66,7 +66,9 @@ const About = (props: Props) => {
             Hello, I &apos;m{" "}
             <span className="underline underline-offset-2 font-bold text-teal-300 tracking-wider">
               Shubham Kadam
-            </span>{" "}aka <span className="underline underline-offset-2 font-bold text-teal-300 tracking-wider">
+            </span>{" "}
+            aka{" "}
+            <span className="underline underline-offset-2 font-bold text-teal-300 tracking-wider">
               HRWells
             </span>{" "}
             – a skilled web developer with a robust foundation in the world of{" "}
@@ -100,13 +102,13 @@ const About = (props: Props) => {
               JavaScript, Next.js, React JS, Express.js, Node Js, Tailwind CSS,
               SASS, and more.
             </span>{" "}
-            I &apos;m also well-versed in MongoDB, a versatile NoSQL database that
-            allows for adaptable and scalable data storage.
+            I &apos;m also well-versed in MongoDB, a versatile NoSQL database
+            that allows for adaptable and scalable data storage.
           </p>
           <p>
             Now, I &apos;m on the lookout for exciting opportunities to apply my
-            skills and contribute to dynamic web projects. If you &apos;re seeking a
-            dedicated and innovative developer,{" "}
+            skills and contribute to dynamic web projects. If you &apos;re
+            seeking a dedicated and innovative developer,{" "}
             <span className="underline underline-offset-4 decoration-orange-300">
               let &apos;s connect and explore
             </span>{" "}
