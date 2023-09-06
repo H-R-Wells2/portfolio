@@ -38,7 +38,15 @@ const Projects = (props: Props) => {
             />
           ))}
         </div>
-        <p className="w-full mx-auto flex justify-center text-center">Explore more of my projects on my<Link href={'https://github.com/h-r-wells2'} className="mx-1 text-teal-300 hover:text-teal-400 hover:underline-offset-2 hover:underline ">GitHub profile</Link></p>
+        <p className="w-full mx-auto flex justify-center text-center">
+          Explore more of my projects on my
+          <Link
+            href={"https://github.com/h-r-wells2"}
+            className="mx-1 text-teal-300 hover:text-teal-400 hover:underline-offset-2 hover:underline "
+          >
+            GitHub profile
+          </Link>
+        </p>
       </div>
     </motion.div>
   );

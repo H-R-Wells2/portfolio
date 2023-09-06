@@ -38,7 +38,7 @@ const BottomContact = (props: Props) => {
         </motion.a>
       </div>
       <div className="flex justify-center items-center w-full">
-        Coded with <FaHeart className="mx-1"/> by Shubham
+        Coded with <FaHeart className="mx-1" /> by Shubham
       </div>
     </div>
   );

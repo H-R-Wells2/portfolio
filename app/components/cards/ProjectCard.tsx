@@ -62,16 +62,16 @@ const ProjectCard = ({
           <motion.span
             initial={{
               rotate: -20,
-              y:-10
+              y: -10,
             }}
             whileInView={{
               rotate: 0,
-              y:0,
+              y: 0,
             }}
             transition={{
-              type:"spring"
+              type: "spring",
             }}
-            viewport={{once:true}}
+            viewport={{ once: true }}
             key={tag}
             className="bg-secondary/40 rounded-md px-1 "
           >

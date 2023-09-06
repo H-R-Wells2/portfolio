@@ -26,9 +26,8 @@ export default function Home() {
 
       <section id="contact">
         <Contact />
-        <BottomContact/>
+        <BottomContact />
       </section>
-        
     </div>
   );
 }

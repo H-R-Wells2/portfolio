@@ -12,11 +12,10 @@ button,
 select,
 div,
 a {
-    -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @layer utilities {
-
   .custom-scrollbar::-webkit-scrollbar {
     width: 7px;
     height: 3px;
@@ -28,7 +27,7 @@ a {
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #61519F;
+    background: #61519f;
     border-radius: 50px;
   }
 

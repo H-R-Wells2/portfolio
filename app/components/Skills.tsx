@@ -22,8 +22,9 @@ const Skills = (props: Props) => {
       <div className="flex flex-col sm:mt-8 mt-28">
         <div className="flex w-full justify-center">
           <h4 className="text-md p-3 rounded-lg text-center flex justify-center max-w-md flex-col top-32 text-quaternary z-10">
-            Skills are the foundation, but actions speak louder. Let &apos;s dive into
-            what I bring to the table. Here &apos;s a glimpse of my skill set.
+            Skills are the foundation, but actions speak louder. Let &apos;s
+            dive into what I bring to the table. Here &apos;s a glimpse of my
+            skill set.
           </h4>
         </div>
         <div className="flex flex-wrap justify-evenly gap-5 mb-7 max-w-4xl mt-16">

@@ -33,7 +33,9 @@ const Skill = ({ name, imgUrl, proficiency }: Props) => {
       />
       <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out group-hover:bg-teal-300/70 w-20 h-20 xl:w-28 xl:h-28 md:w-24 md:h-24  rounded-2xl z-0">
         <div className="flex items-center justify-center h-full">
-          <p className="md:text-lg text-sm font-semibold text-black opacity-100">{name}</p>
+          <p className="md:text-lg text-sm font-semibold text-black opacity-100">
+            {name}
+          </p>
         </div>
       </div>
     </motion.div>
