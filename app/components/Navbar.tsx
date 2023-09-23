@@ -101,10 +101,10 @@ const Navbar = () => {
           }}
           className="items-center gap-4 mx-4 text-white text-lg sm:text-xl font-semibold flex md:hidden"
         >
-          <Link href="https://t.me/h_r_wells" className="self-center">
+          <Link href="https://www.linkedin.com/in/shubham-kadam-0620b722a/" className="self-center">
             <FaLinkedin className="h-6 w-6 text-teal-300" />
           </Link>
-          <Link href="https://t.me/h_r_wells" className="self-center">
+          <Link href="https://github.com/h-r-wells2" className="self-center">
             <FaGithub className="h-6 w-6 text-teal-300" />
           </Link>
           <Link href="https://t.me/h_r_wells" className="self-center">
