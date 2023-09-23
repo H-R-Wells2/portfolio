@@ -60,7 +60,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              <Link href="https://t.me/h_r_wells" className="self-center">
+              <Link href="https://www.linkedin.com/in/shubham-kadam-0620b722a/" className="self-center">
                 <FaLinkedin className="h-8 w-8 text-teal-300" />
               </Link>
             </motion.div>
@@ -69,7 +69,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              <Link href="https://t.me/h_r_wells" className="self-center">
+              <Link href="https://github.com/h-r-wells2" className="self-center">
                 <FaGithub className="h-8 w-8 text-teal-300" />
               </Link>
             </motion.div>

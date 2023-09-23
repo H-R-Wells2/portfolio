@@ -13,7 +13,7 @@ const BottomContact = (props: Props) => {
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-          href="https://t.me/h_r_wells"
+          href="https://www.linkedin.com/in/shubham-kadam-0620b722a/"
           className="self-center"
         >
           <FaLinkedin className="h-8 w-8 hover:text-teal-300" />
@@ -22,7 +22,7 @@ const BottomContact = (props: Props) => {
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-          href="https://t.me/h_r_wells"
+          href="https://github.com/h-r-wells2"
           className="self-center"
         >
           <FaGithub className="h-8 w-8 hover:text-teal-300" />
