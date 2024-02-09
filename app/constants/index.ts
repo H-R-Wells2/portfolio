@@ -93,7 +93,7 @@ export const skills = [
   {
     name: "Tailwind",
     imgUrl:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
     proficiency: 100,
   },
   {
